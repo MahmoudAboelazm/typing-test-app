@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.header div {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #333;
+  line-height: 1.5;
+  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+  width: 6rem;
+  justify-content: center;
+  display: flex;
+}
+
+.header div span {
+  position: absolute;
+  bottom: 0px;
+  font-size: 15px;
+}
